@@ -513,10 +513,10 @@ let JapanseGrammarComponent = class JapanseGrammarComponent {
             N5: []
         };
         this.topPosToStartShowing = 100;
-        translate.setDefaultLang('en');
+        translate.setDefaultLang('vn');
     }
     ngOnInit() {
-        this.multiLanguge.en = true;
+        this.multiLanguge.vn = true;
         this.listDataLevel.All = listDataConst;
         this.listDataLevel.N1 = listDataConst.filter(item => item.level === 'N1');
         this.listDataLevel.N2 = listDataConst.filter(item => item.level === 'N2');

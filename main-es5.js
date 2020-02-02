@@ -1048,13 +1048,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           N5: []
         };
         this.topPosToStartShowing = 100;
-        translate.setDefaultLang('en');
+        translate.setDefaultLang('vn');
       }
 
       _createClass(JapanseGrammarComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.multiLanguge.en = true;
+          this.multiLanguge.vn = true;
           this.listDataLevel.All = listDataConst;
           this.listDataLevel.N1 = listDataConst.filter(function (item) {
             return item.level === 'N1';
